@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'mainFont';
+    src: url('../fonts/space_age.ttf');
+}
+
+#camera {
+    margin: 0 auto 0 auto;
+    display: table;
+    border: 1px solid black;
+}
