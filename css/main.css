@@ -3,8 +3,32 @@
     src: url('../fonts/space_age.ttf');
 }
 
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
 #camera {
     margin: 0 auto 0 auto;
     display: table;
     border: 1px solid black;
+}
+#menu {
+    font-family: mainFont;
+    margin: 0 auto 0 auto;
+    display: table;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: -500px;
+}
+
+#start {
+    margin-bottom: 10px;
 }
